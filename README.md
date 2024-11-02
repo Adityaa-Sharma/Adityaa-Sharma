@@ -4,7 +4,7 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00FF00&center=true&vCenter=true&random=false&width=600&lines=AI+%26+ML+Master's+Student;LLM+Enthusiast;Problem+Solver;Creative+Coder)](https://git.io/typing-svg)
 
-<img src="https://github.com/Adityak8340/Adityak8340/blob/main/meow_wave_peak.png" height="60"/>
+<img src="https://github.com/Adityaa-Sharma/Adityaa-Sharma/blob/main/meow_wave_peak.png" height="60"/>
 
 </div>
 
@@ -16,16 +16,16 @@ Master's student in AI & ML, turning complex problems into elegant solutions
 Passionate about leveraging LLMs for real-world impact
 
 <p align="center">
-  <a href="https://twitter.com/Adityak22723056">
-    <img src="https://img.shields.io/twitter/follow/Adityak22723056?style=for-the-badge&logo=twitter&color=1DA1F2&logoColor=white" alt="Twitter"/>
+  <a href="https://x.com/AdityaS64420353">
+    <img src="https://img.shields.io/twitter/follow/AdityaS64420353?style=for-the-badge&logo=twitter&color=1DA1F2&logoColor=white" alt="Twitter"/>
   </a>
-  <a href="https://linkedin.com/in/aditya-kumar-tiwari-a14547232">
+  <a href="https://www.linkedin.com/in/aditya-jpr/">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn"/>
   </a>
-  <a href="https://kaggle.com/aditya0kumar0tiwari">
+  <a href="https://www.kaggle.com/adityasharmajprr">
     <img src="https://img.shields.io/badge/Kaggle-Expert-20BEFF?style=for-the-badge&logo=kaggle" alt="Kaggle"/>
   </a>
-  <a href="https://www.leetcode.com/_aadi_anant">
+  <a href="https://leetcode.com/u/msa23024_iiitl/">
     <img src="https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode" alt="LeetCode"/>
   </a>
 </p>
@@ -122,12 +122,12 @@ Passionate about leveraging LLMs for real-world impact
 ---
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Adityak8340&theme=darkhub&row=1&no-bg=true)](https://github.com/ryo-ma/github-profile-trophy" alt="Aditya's github trophy">
+  <img src="https://github-profile-trophy.vercel.app/?username=Adityaa-Sharma&theme=darkhub&row=1&no-bg=true)](https://github.com/ryo-ma/github-profile-trophy" alt="Aditya's github trophy">
 </div>
 
   
 <p align="center">
-  <img width="800" height="220" src="https://streak-stats.demolab.com?user=Adityak8340&theme=highcontrast&hide_border=true&border_radius=5&card_width=800">
+  <img width="800" height="220" src="https://streak-stats.demolab.com?user=Adityaa-Sharma&theme=highcontrast&hide_border=true&border_radius=5&card_width=800">
 </p>
 
 
@@ -137,16 +137,16 @@ Passionate about leveraging LLMs for real-world impact
 
 
 <p align="center">
-  <img width="600" height="200" src="https://github-readme-stats.vercel.app/api?username=Adityak8340&show_icons=true&theme=vision-friendly-dark">
-  <img width="400" height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adityak8340&size_weight=0.0005&count_weight=0.3&layout=compact&theme=vision-friendly-dark">
+  <img width="600" height="200" src="https://github-readme-stats.vercel.app/api?username=Adityaa-Sharma0&show_icons=true&theme=vision-friendly-dark">
+  <img width="400" height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adityaa-Sharma&size_weight=0.0005&count_weight=0.3&layout=compact&theme=vision-friendly-dark">
 </p>
  
 
 
 <div id="header" align="center">
-  <img src="https://komarev.com/ghpvc/?username=Adityak8340&style=for-the-badge&color=orange" alt=""/>
+  <img src="https://komarev.com/ghpvc/?username=Adityaa-Sharma0&style=for-the-badge&color=orange" alt=""/>
 </div>
 
 <p align="center">
- <img width="1000" src="assets/github-snake.svg" alt="snake"/>
+ <img width="1000" src="github-snake.svg" alt="snake"/>
 </p>
