@@ -12,8 +12,8 @@
 
 <div align="center">
   
-Master's student in AI & ML, turning complex problems into elegant solutions
-Passionate about leveraging LLMs for real-world impact
+
+I'm a master's student at IIIT Lucknow, specializing in AI and ML. Passionate about large language models and artificial intelligenc, I enjoy exploring cutting-edge advancements in these fields.
 
 <p align="center">
   <a href="https://x.com/AdityaS64420353">
