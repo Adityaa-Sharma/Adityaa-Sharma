@@ -120,6 +120,14 @@ I'm a master's student at IIIT Lucknow, specializing in AI and ML. Passionate ab
 </div>
 
 ---
+### 📈 Current LeetCode Streak
+
+<!-- Add LeetCode streak badge -->
+<p align="center">
+  <img src="https://leetcode-stats-api.herokuapp.com/<your-leetcode-username>?theme=dark" alt="LeetCode Streak"/>
+</p>
+
+</div>
 
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Adityaa-Sharma&theme=darkhub&row=1&no-bg=true)](https://github.com/ryo-ma/github-profile-trophy" alt="Aditya's github trophy">
