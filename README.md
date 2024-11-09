@@ -123,10 +123,10 @@ I'm a master's student at IIIT Lucknow, specializing in AI and ML. Passionate ab
 ### 📈 Current LeetCode Streak
 
 <!-- Add LeetCode streak badge -->
-<p align="center">
-  <img src="https://leetcode-stats-card.vercel.app/api?username=msa23024_iiitl&theme=dark" alt="LeetCode Streak"/>
-</p>
-
+<div>
+  <p align="center">
+    <img src="https://leetcode-stats-card.vercel.app/api?username=msa23024_iiitl&theme=dark" alt="LeetCode Streak"/>
+  </p>
 </div>
 
 <div align="center">
