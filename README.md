@@ -13,7 +13,7 @@
 <div align="center">
   
 
-I'm a master's student at IIIT Lucknow, specializing in AI and ML. Passionate about large language models and artificial intelligenc, I enjoy exploring cutting-edge advancements in these fields.
+I'm a master's student at IIIT Lucknow, specializing in AI and ML. Passionate about large language models and artificial intelligence, I enjoy exploring cutting-edge advancements in these fields.
 
 <p align="center">
   <a href="https://x.com/AdityaS64420353">
