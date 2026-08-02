@@ -1,160 +1,79 @@
-<div align="center">
-  
-# 🌟 Hey, It's me, Aditya! 🌟
+# Aditya Sharma
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00FF00&center=true&vCenter=true&random=false&width=600&lines=AI+%26+ML+Master's+Student;LLM+Enthusiast;Problem+Solver;Creative+Coder)](https://git.io/typing-svg)
+**Senior AI Engineer at Savills** — I build agent systems that survive production.
 
-<img src="https://github.com/Adityaa-Sharma/Adityaa-Sharma/blob/main/meow_wave_peak.png" height="60"/>
+Mathematics degree first; agents since 2024, before the hype. Savills was my client at
+Datasmith — then they hired me.
 
-</div>
-
-
-
-<div align="center">
-  
-
-I'm a master's student at IIIT Lucknow, specializing in AI and ML. Passionate about large language models and artificial intelligence, I enjoy exploring cutting-edge advancements in these fields.
-
-<p align="center">
-  <a href="https://x.com/AdityaS64420353">
-    <img src="https://img.shields.io/twitter/follow/AdityaS64420353?style=for-the-badge&logo=twitter&color=1DA1F2&logoColor=white" alt="Twitter"/>
-  </a>
-  <a href="https://www.linkedin.com/in/aditya-jpr/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn"/>
-  </a>
-  <a href="https://www.kaggle.com/adityasharmajprr">
-    <img src="https://img.shields.io/badge/Kaggle-Expert-20BEFF?style=for-the-badge&logo=kaggle" alt="Kaggle"/>
-  </a>
-  <a href="https://leetcode.com/u/msa23024_iiitl/">
-    <img src="https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode" alt="LeetCode"/>
-  </a>
-</p>
-
-</div>
+**[→ neural chalchitra, my portfolio](https://adityaa-sharma.github.io/neural-chalchitra/)** —
+every project as a star: read it as an index, or take the 3D flight through it.
 
 ---
 
+## Numbers I stand behind
 
-<div align="center">
+| number | where it comes from |
+|-------:|---------------------|
+| **< 4 s** | agent latency — 8 tools on a 16k context. MHADA (Govt. of Maharashtra), live at mhada.gov.in, answering in Marathi |
+| **100+** | concurrent users — 4×A100 80GB, model parallelism + round-robin. I deployed the whole estate: vLLM, Whisper, TTS, vision, Redis, Celery, Postgres, across prod/UAT/dev |
+| **10,000** | leases keyword-extracted in one pass — Ray, one model sharded across 4 VMs |
+| **8B** | Qwen3-VL fine-tuned (LoRA SFT → GRPO, reward functions I wrote myself) past the closed models on valve-industry datasheets |
 
-## 🛠 Technical Arsenal
+## Where that happened
 
+**Savills** — Senior AI Engineer, 2025 — present. They were my client across 22 APAC
+business lines; when I was leaving Datasmith, they offered me the role. Architected the
+APAC agent platform — agents, schedulers, outputs as live React components — and demoed
+it to the APAC CIO. Worked GST/TDS reconciliation through with the India CFO, built an
+RFI-response generator over SharePoint, led hiring for the AI team.
 
-### 🌟 Programming Languages
-<p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" alt="C"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/></a>
-</p>
+**Datasmith.ai** — Founding member, 2024 — 2025. Owned client work from POC to
+production: MHADA (the agent above), TenderGenie (the fine-tune above, shipped during my
+notice period), and AI Lake — chat with all your data (CSV, Postgres, Mongo), the agent
+choosing which React component to answer with, a knowledge graph underneath.
 
-### 🧠 AI & Machine Learning
-<p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" alt="Keras"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-learn"/></a>
-</p>
+**PG-AGI** — AI/ML Intern, 2024. Chat-with-database on OpenAI function calling + DSPy,
+built to sit under voice agents — before "agentic" was a pitch-deck word.
 
-### 📊 Data Science & Analytics
-<p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white" alt="Matplotlib"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Seaborn"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV"/></a>
-</p>
+**Freelance, live today** — [eve](https://eve2-frontend-62944796586.us-central1.run.app/en-US/):
+university search on parent-child RAG (a school can have 400+ programs; one chunk cannot
+hold them), Airflow ingestion. [latimer.ai](https://www.latimer.ai/): chat, auth, magic links.
 
-### 🤖 LLMs & Knowledge Systems
-<p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/Langchain-121212?style=for-the-badge&logo=chainlink&logoColor=white" alt="Langchain"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Transformers-FF6B6B?style=for-the-badge&logo=huggingface&logoColor=white" alt="Transformers"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/RAG-4B0082?style=for-the-badge&logo=semantic-web&logoColor=white" alt="RAG"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Knowledge_Graph_RAG-9932CC?style=for-the-badge&logo=graphql&logoColor=white" alt="Knowledge Graph RAG"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/spaCy-09A3D5?style=for-the-badge&logo=spacy&logoColor=white" alt="spaCy"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/LLMs-00FFFF?style=for-the-badge&logo=openai&logoColor=black" alt="LLMs"/></a>
-</p>
+**Before all of it** — B.S. Honors Mathematics, then M.S. AI & ML at IIIT Lucknow
+(9.23 CGPA). The math came first on purpose.
 
-### 🌐 Web Development & APIs
-<p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit"/></a>
-</p>
+## Independent research — the part that's public
 
-### 🗄 Databases & Graph Systems
-<p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white" alt="Neo4j"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/ArangoDB-DDE072?style=for-the-badge&logo=arangodb&logoColor=black" alt="ArangoDB"/></a>
-</p>
+The production work above is closed-source, so what you can read here is the
+foundational side: papers implemented from scratch, and the layers under the frameworks.
 
-### ⚡ Development Tools
-<p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=google-colab&logoColor=white" alt="Colab"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/></a>
-</p>
+| repo | what it is |
+|------|------------|
+| [GPT-2-Scratch](https://github.com/Adityaa-Sharma/GPT-2-Scratch) | GPT-2 built from the paper — 21.77M params, character-level, trained on 11k poems on a single 16GB T4 |
+| [Linformer-paper-implemetation](https://github.com/Adityaa-Sharma/Linformer-paper-implemetation) | Linformer from the paper — attention from O(N²) to O(N) |
+| [DeepQlearning](https://github.com/Adityaa-Sharma/DeepQlearning) | DeepMind's DQN — my agent plays Atari Breakout after ~1,600 episodes |
+| [cudaKernels](https://github.com/Adityaa-Sharma/cudaKernels) | going below the framework, one kernel at a time |
+| [Trading_mcp_server](https://github.com/Adityaa-Sharma/Trading_mcp_server) | an MCP server that gives LLMs real hands — live Upstox portfolio, order execution ([demo](https://www.loom.com/share/11669cb8a1ad4867971af8f6b9b8516c)) |
+| [Ref_Reader_Backend](https://github.com/Adityaa-Sharma/Ref_Reader_Backend) | ArXiv research assistant — two-stage RAG, Qdrant + Postgres, deployed |
 
-### ☁ Cloud & Testing
-<p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Azure"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white" alt="Selenium"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/PyTest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" alt="PyTest"/></a>
-</p>
+## Stack I actually use
 
-### 🛠 Other Tools
-<p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white" alt="LaTeX"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/PIL-666666?style=for-the-badge&logo=python&logoColor=white" alt="PIL"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Requests-2CA5E0?style=for-the-badge&logo=python&logoColor=white" alt="Requests"/></a>
-</p>
+- **Serving & infra** — vLLM · Ray · Docker · Redis · Celery · Postgres · Airflow · Superset
+- **Training** — PyTorch · TRL (SFT, GRPO) · LoRA · Weights & Biases · AWQ quantisation
+- **Agents & retrieval** — function calling · MCP · DSPy · Qdrant · Neo4j · parent-child RAG
+- **Learning right now** — CUDA kernels · vLLM internals · React (the portfolio is my JS classroom)
 
-</div>
+## Problems I'm chasing
 
----
-### 📈 Current LeetCode Streak
+Context bloat — most "hallucinations" I have debugged were context problems; MHADA runs
+on a 16k window on purpose. Hallucination control you can grade with a reward function.
+And the standing rule of production ML: one box is never the final answer.
 
-<!-- Add LeetCode streak badge -->
-<div>
-  <p align="center">
-    <img src="https://leetcode-stats.vercel.app/api?username=msa23024_iiitl&theme=dark" alt="LeetCode Streak" />
-  </p>
-</div>
+## Reach me
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Adityaa-Sharma&theme=darkhub&row=1&no-bg=true)](https://github.com/ryo-ma/github-profile-trophy" alt="Aditya's github trophy">
-</div>
+[adityasharma.jprr@gmail.com](mailto:adityasharma.jprr@gmail.com) ·
+[portfolio](https://adityaa-sharma.github.io/neural-chalchitra/) ·
+[linkedin](https://www.linkedin.com/in/aditya-jpr/) ·
+[hugging face](https://huggingface.co/Adityyaa)
 
-  
-<p align="center">
-  <img width="800" height="220" src="https://streak-stats.demolab.com?user=Adityaa-Sharma&theme=highcontrast&hide_border=true&border_radius=5&card_width=800">
-</p>
-
-
----
-
-
-
-
-<p align="center">
-  <img width="600" height="200" src="https://github-readme-stats.vercel.app/api?username=Adityaa-Sharma&show_icons=true&theme=vision-friendly-dark">
-  <img width="400" height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adityaa-Sharma&size_weight=0.0005&count_weight=0.3&layout=compact&theme=vision-friendly-dark">
-</p>
- 
-
-
-<div id="header" align="center">
-  <img src="https://komarev.com/ghpvc/?username=Adityaa-Sharma&style=for-the-badge&color=orange" alt=""/>
-</div>
-
-<p align="center">
- <img width="1000" src="github-snake.svg" alt="snake"/>
-</p>
+फिर मिलेंगे — *see you around.*
