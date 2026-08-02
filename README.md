@@ -1,51 +1,41 @@
 # Aditya Sharma
 
-**Senior AI Engineer at Savills** — I build agent systems that survive production.
+**I build agent systems that survive production.**
 
-Mathematics degree first; agents since 2024, before the hype. Savills was my client at
-Datasmith — then they hired me.
+Mathematics degree → models → the machines they run on. Python and PyTorch first;
+when a thing doesn't make sense from the outside, I reimplement the paper.
 
 **[→ neural chalchitra, my portfolio](https://adityaa-sharma.github.io/neural-chalchitra/)** —
 every project as a star: read it as an index, or take the 3D flight through it.
 
 ---
 
-## Numbers I stand behind
+## Things I've built
 
-| number | where it comes from |
-|-------:|---------------------|
-| **< 4 s** | agent latency — 8 tools on a 16k context. MHADA (Govt. of Maharashtra), live at mhada.gov.in, answering in Marathi |
-| **100+** | concurrent users — 4×A100 80GB, model parallelism + round-robin. I deployed the whole estate: vLLM, Whisper, TTS, vision, Redis, Celery, Postgres, across prod/UAT/dev |
-| **10,000** | leases keyword-extracted in one pass — Ray, one model sharded across 4 VMs |
-| **8B** | Qwen3-VL fine-tuned (LoRA SFT → GRPO, reward functions I wrote myself) past the closed models on valve-industry datasheets |
+- **An 8-tool agent on a government portal**, answering in Marathi — under **4 s** on a
+  16k context, kept small on purpose: most "hallucinations" I have debugged were
+  context problems.
+- **A vision-model fine-tune that beat the closed models** on industrial datasheets —
+  Qwen3-VL-8B, LoRA SFT → GRPO with reward functions I wrote myself: JSON validity,
+  schema compliance, per-field accuracy, a hallucination penalty.
+- **A full serving estate** — vLLM + Whisper + TTS + vision on 4×A100 80GB, model
+  parallelism + round-robin for **100+ concurrent users**, prod/UAT/dev, deployed
+  end to end by me.
+- **A one-pass extraction over 10,000 leases** — one model sharded across 4 VMs
+  with Ray.
+- **Chat with all your data** — CSV, Postgres, Mongo behind one agent that chooses
+  which React component to answer with, a knowledge graph underneath.
+- **Agents with real hands** — an MCP server doing live portfolio reads and order
+  execution from the editor, and chat-with-database on function calling + DSPy back
+  in 2024, before "agentic" was a pitch-deck word.
 
-## Where that happened
+*Built at Savills (current), Datasmith.ai, and PG-AGI —
+[the full stories, in order](https://adityaa-sharma.github.io/neural-chalchitra/).*
 
-**Savills** — Senior AI Engineer, 2025 — present. They were my client across 22 APAC
-business lines; when I was leaving Datasmith, they offered me the role. Architected the
-APAC agent platform — agents, schedulers, outputs as live React components — and demoed
-it to the APAC CIO. Worked GST/TDS reconciliation through with the India CFO, built an
-RFI-response generator over SharePoint, led hiring for the AI team.
+## Public work
 
-**Datasmith.ai** — Founding member, 2024 — 2025. Owned client work from POC to
-production: MHADA (the agent above), TenderGenie (the fine-tune above, shipped during my
-notice period), and AI Lake — chat with all your data (CSV, Postgres, Mongo), the agent
-choosing which React component to answer with, a knowledge graph underneath.
-
-**PG-AGI** — AI/ML Intern, 2024. Chat-with-database on OpenAI function calling + DSPy,
-built to sit under voice agents — before "agentic" was a pitch-deck word.
-
-**Freelance, live today** — [eve](https://eve2-frontend-62944796586.us-central1.run.app/en-US/):
-university search on parent-child RAG (a school can have 400+ programs; one chunk cannot
-hold them), Airflow ingestion. [latimer.ai](https://www.latimer.ai/): chat, auth, magic links.
-
-**Before all of it** — B.S. Honors Mathematics, then M.S. AI & ML at IIIT Lucknow
-(9.23 CGPA). The math came first on purpose.
-
-## Independent research — the part that's public
-
-The production work above is closed-source, so what you can read here is the
-foundational side: papers implemented from scratch, and the layers under the frameworks.
+The production systems above are closed-source; what you can read here is the
+foundational side — papers implemented from scratch, and the layers under the frameworks.
 
 | repo | what it is |
 |------|------------|
@@ -56,18 +46,21 @@ foundational side: papers implemented from scratch, and the layers under the fra
 | [Trading_mcp_server](https://github.com/Adityaa-Sharma/Trading_mcp_server) | an MCP server that gives LLMs real hands — live Upstox portfolio, order execution ([demo](https://www.loom.com/share/11669cb8a1ad4867971af8f6b9b8516c)) |
 | [Ref_Reader_Backend](https://github.com/Adityaa-Sharma/Ref_Reader_Backend) | ArXiv research assistant — two-stage RAG, Qdrant + Postgres, deployed |
 
-## Stack I actually use
+## Stack
 
-- **Serving & infra** — vLLM · Ray · Docker · Redis · Celery · Postgres · Airflow · Superset
-- **Training** — PyTorch · TRL (SFT, GRPO) · LoRA · Weights & Biases · AWQ quantisation
-- **Agents & retrieval** — function calling · MCP · DSPy · Qdrant · Neo4j · parent-child RAG
-- **Learning right now** — CUDA kernels · vLLM internals · React (the portfolio is my JS classroom)
+- **Languages** — Python (first language) · C++ · SQL · TypeScript (learning, in public)
+- **Training** — PyTorch · TRL (SFT, GRPO) · LoRA / PEFT · Weights & Biases · AWQ quantisation
+- **Serving & distributed** — vLLM · Ray · FastAPI · Docker · Redis · Celery · Postgres · Airflow · Superset
+- **Agents & retrieval** — MCP · function calling · DSPy · Qdrant · Neo4j · Whisper / TTS
+- **Below the framework** — CUDA kernels · vLLM internals — reading the engine I deploy
 
-## Problems I'm chasing
+## What I want to work on
 
-Context bloat — most "hallucinations" I have debugged were context problems; MHADA runs
-on a 16k window on purpose. Hallucination control you can grade with a reward function.
-And the standing rule of production ML: one box is never the final answer.
+Context engineering — bloat is the real enemy, and small windows are a feature.
+Hallucination control you can grade with a reward function instead of a vibe.
+Serving efficiency, because one box is never the final answer. And on the
+foundational side: papers from scratch — attention, Linformer, DQN so far — with
+CUDA next. I want problems where the math has to survive contact with production.
 
 ## Reach me
 
